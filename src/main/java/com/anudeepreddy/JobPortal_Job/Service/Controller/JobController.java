@@ -24,7 +24,7 @@ import javax.swing.text.html.HTML;
 @RestController
 @RequestMapping("/job")
 @Tag(name="Job Controller API's")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://job-portal-frontend-5hsn.onrender.com")
 public class JobController {
 
     @Autowired
